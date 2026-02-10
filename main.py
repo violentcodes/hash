@@ -1,6 +1,7 @@
 import hashlib as h
 from colorama import Fore, Style, Back
 def hash():
+    target = input("enter hashed password:")
     f1 = open("input.txt" , "r")
     text = f1.readlines()
     for i in range(len(text)):
