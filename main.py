@@ -52,3 +52,4 @@ def menu():
         hashMD5()
     if ch == 4:
         hashSHA1()
+    menu()
